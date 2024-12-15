@@ -1,0 +1,58 @@
+.highlights{
+    .cards{
+        margin-top: 35px;
+
+        .highlightsCard{
+            .category{
+                position: absolute;
+                top: 175px;
+                left: 15px;
+                z-index: 1;
+            }
+
+            .cardImg{
+                position: relative;
+                transition: 0.3s;
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(0.9);
+                }
+            }
+        
+            .cardTitle{
+                font-size: 20px
+            }
+        
+            .author{
+                img{
+                    width: 35px;
+                    border-radius: 100%;
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+
+    .advertisement{
+        margin-top: 80px;
+
+        .advertisementBg{
+            cursor: pointer;
+            width: 100%;
+            height: 227px;
+            border-radius: 5px;
+            background-image: url('https://blogzine.webestica.com/assets/images/adv-3.png');
+        }
+        .advertisementText{
+            text-align: right;
+            font-weight: 550;
+        }
+    }
+
+}

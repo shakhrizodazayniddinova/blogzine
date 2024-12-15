@@ -1,0 +1,46 @@
+header{
+    padding: 13px 162px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: 0.3s;
+    background-color: white !important;
+
+    .brandLogo{
+        width: 138px;
+        height: 30px;
+    }
+
+    ul{
+        list-style: none;
+        gap: 24px;
+        
+        li:hover{
+            color: #0d6efd;
+
+            .ellipsSearch:hover{
+                color: #0d6efd;
+            }
+        }
+ 
+        .dropdown-menu.show{
+            border: none;
+        } 
+
+
+        .cardDrop{
+            .dropdown-menu.show{
+                display: flex;
+                gap: 30px;
+                align-self: center;
+                padding: 30px;
+                border: none;
+            } 
+        }
+    }
+}
+.dropDark{
+    .dropdown-menu.show{
+        background-color: #222429;
+    }
+}

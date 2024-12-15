@@ -1,0 +1,47 @@
+.emailform{
+    .form{
+        .emailBg{
+            overflow: hidden;
+            position: relative;
+            background-color: rgb(25, 26, 31);
+            width: 1170px;
+            height: 385px;
+
+            svg{
+                position: absolute;
+                left: -350px;
+                top: -50px;
+
+                .successPath{
+                    fill: #0cbc87;
+                }
+                .warningPath{
+                    fill: #f7c32e;
+                }
+                .warningOpacity{
+                    position: absolute;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .formElement{
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            span{
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+        }
+    }
+}
+.custom-input{
+    &::placeholder{
+        color: rgb(142, 141, 141);
+    }
+}

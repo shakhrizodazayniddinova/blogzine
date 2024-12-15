@@ -1,0 +1,66 @@
+.footer{
+    padding: 50px 170px 40px 170px;
+    
+    .footerDiv{
+        border-top: 1px solid rgb(215, 215, 215);
+        padding-top: 100px;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+    .logo{
+        width: 380px;
+
+        p{
+            font-size: 16.3px;
+            line-height: 25px;
+        }
+        span{
+            font-size: 15.5px;
+            font-weight: 500;
+        }
+    }
+
+    .navigation{
+        .navigationLi{
+            ul{
+                list-style: none;
+
+                li{
+                    cursor: pointer;
+                    font-size: 15px;
+                    font-weight: 500;
+
+                    &:hover{
+                        color: #0d6efd;
+                    }
+                }
+            }
+        }
+    }
+
+    .footerBtn{
+        .btn{
+            font-size: 14px;
+        }
+
+        .btn-travel { background-color: rgba(33, 99, 232, 0.1); color: #2163e8; font-weight: 500;}
+        .btn-business { background-color: rgba(247, 195, 46, 0.1); color: #f7c32e; font-weight: 500;}
+        .btn-tech { background-color: rgba(12, 188, 135, 0.1); color: #0cbc87; font-weight: 500;}
+        .btn-gadgets { background-color: rgba(214, 41, 62, 0.1); color: #d6293e; font-weight: 500;}
+        .btn-lifestyle { background-color: rgba(79, 158, 248, 0.1); color: #4f9ef8; font-weight: 500;}
+        .btn-vaccine { background-color: rgba(33, 99, 232, 0.1); color: #2163e8; font-weight: 500;}
+        .btn-marketing { background-color: rgba(247, 195, 46, 0.1); color: #f7c32e; font-weight: 500;}
+        .btn-sports { background-color: rgba(12, 188, 135, 0.1); color: #0cbc87; font-weight: 500;}
+        .btn-covid { background-color: rgba(214, 41, 62, 0.1); color: #d6293e; font-weight: 500;}
+        .btn-politics { background-color: rgba(79, 158, 248, 0.1); color: #4f9ef8; font-weight: 500;}
+    }
+
+    .social{
+        span{
+            cursor: pointer;
+        }
+    }
+}

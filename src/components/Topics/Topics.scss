@@ -1,0 +1,56 @@
+.bg-custom-secondary{
+    background-color: #202227;
+}
+
+.topic{
+    width: 1170px;
+    height: 335px;
+    margin-top: 70px;
+
+    .topicTitle{
+        a{
+            &:hover{
+                color: #0d6efd !important;
+            }
+        }
+    }
+
+    .topicCards{
+        .topicCard{
+            position: relative;
+            width: 202px;
+            height: 202px;
+            border-radius: 15px;
+            background-position: center;
+            background-size: 140% 100%;
+            transition: background-size 0.6s ease;
+            cursor: pointer;
+
+            &:hover{
+                background-size: 150% 110%;
+            }
+
+            .bg-overlay{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                z-index: 1;
+                border-radius: 10px;
+            }
+
+            p{
+                position: relative;
+                z-index: 2;
+                font-size: 20px;
+                margin-top: 75%;
+            }
+        }
+    }
+}
+
+
+// $secondaryTheme: #38393d !default;
+// @import "bootstrap/scss/bootstrap.scss";

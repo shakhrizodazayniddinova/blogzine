@@ -1,0 +1,69 @@
+.sponsored{
+    .titleDiv{
+        a{
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        
+        .cardsDiv{
+            width: 486px;
+            height: 134px;
+            cursor: pointer;
+            background-color: transparent;
+    
+            .card{
+                border: none;
+                background-color: transparent;
+    
+                .category{
+                    width: 86px;
+                    height: 21px;
+                }
+                .cardBody{
+                    width: 324px;
+    
+                    p{
+                        font-size: 22px;
+                        font-weight: 500;
+                        line-height: 26px;
+                    }
+                }
+            }
+    
+            .cardAuthor{
+                .avatar{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 100%;
+                }
+    
+                p{
+                    font-weight: 500;
+                    position: relative;
+    
+                    ::after {
+                        content: "";
+                        position: absolute;
+                        width: 0;
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: #000;
+                        transition: 0.3s;
+                    }
+    
+                    :hover{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
